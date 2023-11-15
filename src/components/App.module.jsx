@@ -1,17 +1,15 @@
- import styled from '@emotion/styled';
+   import styled from '@emotion/styled';
 
- export const Counter = styled.div`
- height: 100vh;
- display: flex;
- justify-content: center;
-align-items: center;
-font-size: 40;
- color: red;
-
- ;`
+   export const Counter = styled.div`
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40;
+   color: red;
+   ;`
         
-
- export const CounterFlex = styled.div`
+    export const CounterFlex = styled.div`
      display: flex;
      gap: 10px;
     ;` 
@@ -20,8 +18,8 @@ font-size: 40;
     background-color: blue;
     padding: 10px 10px;
     border-radius: 10px;
-
     ;`
+
     export const Cash = styled.div`
     color: #fff;
   border: 1px solid #2b86c5;

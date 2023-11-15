@@ -14,14 +14,3 @@ code {
     monospace;
 }
 
-.app{
-  height: '100vh';
-   display: 'flex';
-   justify-content: 'center';
-  align-items: 'center';
-  color: 'red';
-}
-.appa{
-  font-size: 40px;
-  display: flex;
-}
