@@ -1,4 +1,4 @@
-import {Counter, CounterFlex} from './App.module'
+ import {Counter, CounterFlex, ButtonCounter, Cash} from './App.module'
 import { useDispatch, useSelector } from 'react-redux';
 export const App = () => {
 const dispatch = useDispatch()
@@ -12,11 +12,11 @@ const getCash = (cash) => {
 }
 
   return (
-    <Counter>
+    <Counter Counter >
       <CounterFlex>
-<button onClick={()=> addCash(Number(prompt()))}>Пополнить счет</button>
-<div>{cash}</div>
-<button onClick={()=> getCash(Number(prompt()))}>Снять со счета</button>
+<ButtonCounter onClick={()=> addCash(Number(prompt()))}>Пополнить счет</ButtonCounter>
+<Cash>{cash}</Cash>
+<ButtonCounter onClick={()=> getCash(Number(prompt()))}>Снять со счета</ButtonCounter>
       </CounterFlex>
     </Counter>
   );
