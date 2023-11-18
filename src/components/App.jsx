@@ -12,7 +12,7 @@ const getCash = (cash) => {
 }
 
   return (
-    <Counter Counter >
+    <Counter>
       <CounterFlex>
 <ButtonCounter onClick={()=> addCash(Number(prompt()))}>Пополнить счет</ButtonCounter>
 <Cash>{cash}</Cash>
